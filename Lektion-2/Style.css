@@ -1,0 +1,60 @@
+*{
+    font-family: "Roboto Light", Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #f4f2ee;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: #ffff;
+    width: 100%;
+    justify-content: center;
+
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: .8em;
+}
+
+li:hover{
+    color: black;
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: dimgray;
+    cursor: pointer;
+}
+
+input{
+    display: flex;
+    height: 2.2em;
+    margin-right: 8em;
+    background-color: #edf3f8;
+    border: none;
+    border-radius: 5px;
+    text-indent: 0.5rem;
+}
+
+input::placeholder{
+    text-indent: 0.5rem;
+}
+
+.user{
+    margin: 1em;
+    color: dimgray;
+}
+
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+}

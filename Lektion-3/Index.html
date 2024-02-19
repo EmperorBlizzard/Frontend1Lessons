@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="Style.css">-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+        }
+    </style>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+</head>
+<body>
+
+<h1 class="text-3xl font-bold underline text-clifford">
+    Hello world!
+</h1>
+
+<div class="prose border-2 bg-red-500 bg-opacity-70 border-rose-500 rounded-lg">
+    <p>How big. You rob like a whale.</p>
+</div>
+
+<div class="lg:content-auto">
+    <p>Studere foris ducunt ad neuter vigil. Gabaliums accelerare in superbus virundum! </p>
+</div>
+
+<!--<h1>Lektion 3</h1>
+
+<div class="div-1"></div>
+<div class="div-2"></div>
+<div class="div-3"></div>-->
+
+
+</body>
+</html>

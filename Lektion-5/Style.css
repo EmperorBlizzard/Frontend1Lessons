@@ -1,0 +1,29 @@
+.pressed{
+    font-size: 10em;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box-1{
+    width: 500px;
+    height: 200px;
+    background-color: salmon;
+}
+.box-2{
+    width: 500px;
+    height: 200px;
+    background-color: dodgerblue;
+}
